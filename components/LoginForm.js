@@ -83,13 +83,12 @@ export default function LoginForm({ onToggleMode }) {
 
         <div className="auth-footer">
           <p>
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <button type="button" onClick={onToggleMode} className="auth-link">
               Sign up
             </button>
           </p>
         </div>
-
       </div>
     </div>
   );
